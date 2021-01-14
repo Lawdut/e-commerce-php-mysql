@@ -1,0 +1,116 @@
+/*general*/
+* {
+    margin : 0;
+    padding: 0;
+
+}
+
+
+/*entete*/
+#imageEnTete {
+
+    background : url(images/enTete.jpg) no-repeat;
+    background-position: center;
+    height : 200px;
+    background-size : cover;
+
+}
+/*onglet*/
+.containerOnglet {
+    size : cover;
+    font-family: '3dsregular', arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #283847;
+  }
+
+.flexOnglet {
+    margin: 0;
+    padding: 0;
+    font-size : 25px;
+    text-align : center;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    flex : auto;
+    width: 1818px;
+    margin-left : auto;
+    margin-right : auto;
+    color : white;
+    
+}
+
+#ongletHomme, #ongletFemme, #ongletEnfant {
+    flex-basis : 600px;
+    border-left : 2px solid red;
+    cursor : pointer;
+    
+}
+#ongletEnfant {
+    border-right : 2px solid red;
+}
+
+
+
+
+
+/*Produits*/
+
+#pageAccueil {
+    background : url(images/pageAccueil.jpg) no-repeat;
+    background-position: center;
+    background-size: 1000px;
+    height: 400px;
+    margin-top: 100px;
+}
+
+.containerProduit{
+    background-color: white;
+    size : cover;
+    font-family: '3dsregular', arial, sans-serif;
+    margin: 50px;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    /*flex-flow: row wrap;*/
+    flex-direction: column;
+    flex : auto;
+    height: 1000px;
+    margin-left : auto;
+    margin-right : auto;  
+
+}
+
+#Homme, #Femme, #Enfant {
+    display : none;
+    text-align: center;
+     ;
+
+}
+
+h2 {
+    margin-bottom: 20px;
+    
+}
+p {
+    margin-bottom: 50px;
+    
+}
+img {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+@font-face {
+    font-family: '3dsregular';
+    src: url('font/webfontkit-20201117-112418/3ds_regular-webfont.woff2') format('woff2'),
+         url('font/webfontkit-20201117-112418/3ds_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
